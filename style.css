@@ -655,6 +655,7 @@ ul {
             top: 912px;
         }
 
+        
         .four:hover .dropdown5 {
 
             display: flex;
@@ -725,6 +726,12 @@ ul {
         .dropdown4 {
             display: none;
             list-style-type: none;
+            width: 255px;
+        }
+
+        .hovr{
+
+            position: relative;
         }
 
         .hovr:hover .dropdown4 {
@@ -734,14 +741,15 @@ ul {
             justify-content: flex-start;
             border-radius: 10px;
             left: 0px;
-            top: 815px;
+            height: 35px;
+            top: -32px;
             z-index: 200;
             background: #cdcdf5;
-            width: 42%;
         }
         .dropdown6 {
             display: none;
             list-style-type: none;
+            width: 255px;
         }
 
         .hovr:hover .dropdown6 {
@@ -751,28 +759,26 @@ ul {
             justify-content: flex-start;
             border-radius: 10px;
             left: 0px;
-            bottom: 595px;
+            top: -32px;
             height: 35px;
             z-index: 200;
             background: #cdcdf5;
-            width: 42%;
         }
         .dropdown8 {
             display: none;
             list-style-type: none;
+            width: 255px;
         }
 
         .hovr:hover .dropdown8 {
-
             display: flex;
             position: absolute;
             justify-content: flex-start;
             border-radius: 10px;
             left: 0px;
-            bottom: 35px;
+            top: -32px;
             height: 35px;
             z-index: 200;
             background: #cdcdf5;
-            width: 42%;
         }
     
